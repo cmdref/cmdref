@@ -1,3 +1,136 @@
+# ⭐ cmdref — The Terminal Awakens
+
+**Note:** Before pasting: upload your custom images/GIFs into the repo (e.g. `assets/` folder).  
+I reference `./assets/` paths below — if you don't upload them, the README will still work using the public GIFs included.
+
+<p align="center">
+  <!-- logo - upload your logo to assets/cmdref_logo.png -->
+  <img src="./assets/cmdref_logo.png" alt="cmdref logo" width="180" />
+</p>
+
+<p align="center">
+  💻⚡ **Jedi of the CLI** &nbsp;|&nbsp; 🛰️ **Automation Bounty Hunter** &nbsp;|&nbsp; 🛡️ **Code Guardian** &nbsp;|&nbsp; 👾 **Cyberpunk Builder**  
+  🔮 Turning commands into galaxies — *welcome to the holo-net.*
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/CLI%20Jedi-000000?style=for-the-badge&logo=gnu-bash&logoColor=00FF00" alt="CLI" />
+  <img src="https://img.shields.io/badge/Automation-000000?style=for-the-badge&logo=github-actions&logoColor=00FF00" alt="Automation" />
+  <img src="https://img.shields.io/badge/Cyberpunk-000000?style=for-the-badge&logo=neovim&logoColor=00FF00" alt="Cyberpunk" />
+  <img src="https://img.shields.io/badge/Docs-000000?style=for-the-badge&logo=markdown&logoColor=00FF00" alt="Docs" />
+</p>
+
+---
+
+<p align="center">
+  <!-- neon typing animation -->
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=28&pause=1000&color=00FF00&center=true&vCenter=true&width=820&lines=The+Terminal+Awakens;A+New+CLI+Hope;Binary+Flows+Through+The+Force" alt="typing" />
+</p>
+
+---
+
+<p align="center">
+  <!-- matrix / binary rain - public GIF fallback used if you don't upload your own -->
+  <img src="./assets/cmdref_binary_rain.gif" alt="binary rain (local)" width="820" onerror="this.onerror=null; this.src='https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif'">
+</p>
+
+---
+
+<div align="center">
+
+<pre><code>
+$ whoami
+> cmdref
+
+$ uname -a
+> Galactic CLI Archivist • Automation Bounty Hunter • Open Source Rebel
+
+$ ls ~/repos
+> command-line-cheatsheet/  cli-shortcuts/  terminal-tricks/  docs-hub/
+
+$ ./activate_force_mode.sh
+> 01001000 01000001 01000011 01001011 01000101 01010010 00100000 01000001 01000011 01010100 01001001 01010110 01000001 01010100 01000101 01000100
+</code></pre>
+
+</div>
+
+---
+
+### 🌌 Featured Repositories (HoloNet Links)
+
+| Repo | Description |
+|------|-------------|
+| **[command-line-cheatsheet](https://github.com/cmdref/command-line-cheatsheet)** | Ancient Jedi scrolls of CLI commands, examples & quick snippets. |
+| **[cli-shortcuts](https://github.com/cmdref/cli-shortcuts)** | Lightspeed shortcuts, aliases and dotfiles to speed your workflow. |
+| **[terminal-tricks](https://github.com/cmdref/terminal-tricks)** | Force-powered terminal hacks, tools and one-liners. |
+| **[docs-hub](https://github.com/cmdref/docs-hub)** | Organized documentation for scripts, patterns & workshops. |
+
+---
+
+<p align="center">
+  <!-- custom generated hero image (upload the PNG/GIF you received) -->
+  <img src="./assets/cmdref_cyberhero.png" alt="cmdref cyber hero (upload assets/cmdref_cyberhero.png)" width="820" />
+</p>
+
+---
+
+<p align="center">
+  <!-- binary / neon animations - public GIFs used as fallback visuals -->
+  <img src="./assets/cmdref_binary_loop.gif" alt="binary loop (local)" width="280" onerror="this.onerror=null; this.src='https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif'">
+  &nbsp;&nbsp;
+  <img src="./assets/cmdref_neon_circuit.gif" alt="neon circuit (local)" width="280" onerror="this.onerror=null; this.src='https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif'">
+  &nbsp;&nbsp;
+  <img src="./assets/cmdref_hacker_screen.gif" alt="hacker screen (local)" width="280" onerror="this.onerror=null; this.src='https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif'">
+</p>
+
+---
+
+<p align="center">
+  <pre>
+   _______  _________ _______  _______ _________
+  (  ____ \(  ___  )(  ____ )(  ____ \\__   __/
+  | (    \/| (   ) || (    )|| (    \/   ) (   
+  | (_____ | (___) || (____)|| (_____    | |   
+  (_____  )|  ___  ||     __)(_____  )   | |   
+        ) || (   ) || (\ (         ) |   | |   
+  /\____) || )   ( || ) \ \__/\____) |   | |   
+  \_______)|/     \||/   \__/\_______)   )_(   
+  </pre>
+</p>
+
+<p align="center">💻 <b>The Force Will Be With Your Terminal. Always.</b> 💻</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=cmdref&color=00FF00&style=flat-square" alt="visitor count" />
+</p>
+
+---
+
+## How to set this up (quick)
+1. Create a repo named exactly `cmdref` (if you want this README to render on your profile, your repo name must match your username).  
+2. Add a folder `assets/` to the repo and upload these files (recommended filenames):
+   - `assets/cmdref_logo.png` — your logo (180×180 or similar)
+   - `assets/cmdref_cyberhero.png` — hero image (the generated PNG/GIF)
+   - `assets/cmdref_binary_rain.gif` — binary rain GIF (optional)
+   - `assets/cmdref_binary_loop.gif` — small looping binary (optional)
+   - `assets/cmdref_neon_circuit.gif` — neon circuit GIF (optional)
+   - `assets/cmdref_hacker_screen.gif` — hacker screen GIF (optional)
+3. Create `README.md` at the root and paste this whole file (you may paste inside a code block in your editor, but **do not** wrap the final README content itself with triple backticks in the file).
+4. Commit & push. GitHub will render it on your profile.
+
+---
+
+## Want me to do this for you?
+If you want I can:
+- generate the **custom glitch/GIFs with `cmdref` in binary** and provide files ready to upload, or
+- produce a single **SVG animated starfield + typing header** (pure SVG so it's crisp and fast).
+
+Which one would you like next: **(A)** custom GIF pack with username, or **(B)** animated SVG starfield + typed crawl?
+
+
+
 <!-- CYBER STAR WARS FUTURISTIC GITHUB PROFILE -->
 
 <!-- Logo -->
