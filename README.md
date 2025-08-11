@@ -1,3 +1,85 @@
+<p align="center">
+  <img src="YOUR_LOGO_URL" alt="Logo" width="200" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF00&center=true&vCenter=true&width=700&lines=Welcome+to+my+Terminal;Cyber+Futuristic+CLI+Repo;Command+Line+Shortcuts+%26+Docs" alt="Typing SVG" />
+</p>
+
+---
+
+<div align="center">
+
+<pre><code class="language-bash">
+$ whoami
+> YOUR_NAME_OR_HANDLE
+
+$ uname -a
+> Futuristic CLI Enthusiast • Docs Builder • Automation Nerd
+
+$ ls ~/repos
+> command-line-cheatsheet/  cli-shortcuts/  terminal-tricks/  docs-hub/
+</code></pre>
+
+</div>
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=00FF00" alt="Linux" />
+  <img src="https://img.shields.io/badge/Terminal-000000?style=for-the-badge&logo=gnu-bash&logoColor=00FF00" alt="Bash" />
+  <img src="https://img.shields.io/badge/Docs-000000?style=for-the-badge&logo=markdown&logoColor=00FF00" alt="Docs" />
+  <img src="https://img.shields.io/badge/CLI-000000?style=for-the-badge&logo=command-line&logoColor=00FF00" alt="CLI" />
+</p>
+
+---
+
+### 📂 Featured Repositories
+
+| Repo | Description |
+|------|-------------|
+| **[command-line-cheatsheet](https://github.com/YOUR_USERNAME/command-line-cheatsheet)** | A comprehensive list of useful CLI commands and examples. |
+| **[cli-shortcuts](https://github.com/YOUR_USERNAME/cli-shortcuts)** | Shortcuts and aliases to speed up your workflow. |
+| **[terminal-tricks](https://github.com/YOUR_USERNAME/terminal-tricks)** | Tips & tricks for terminal power users. |
+| **[docs-hub](https://github.com/YOUR_USERNAME/docs-hub)** | Centralized documentation for scripts, dotfiles and tutorials. |
+
+---
+
+<pre>
+     _______  _______  _______ _________ _______  _        _       
+    (  ____ \(  ___  )(  ____ )\__   __/(  ___  )( \      ( \      
+    | (    \/| (   ) || (    )|   ) (   | (   ) || (      | (      
+    | (__    | (___) || (____)|   | |   | |   | || |      | |      
+    |  __)   |  ___  ||     __)   | |   | |   | || |      | |      
+    | (      | (   ) || (\ (      | |   | |   | || |      | |      
+    | (____/\| )   ( || ) \ \__   | |   | (___) || (____/\| (____/\
+    (_______/|/     \||/   \__/   )_(   (_______)(_______/(_______/
+</pre>
+
+<p align="center">💻 <b>Hack the Terminal, Rule the Workflow</b> 💻</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=00FF00&style=flat-square" alt="visitor-count" />
+</p>
+
+---
+
+**Quick checklist before you paste**
+- Replace `YOUR_USERNAME` with your GitHub handle.
+- Replace `YOUR_LOGO_URL` with an uploaded image URL (you can upload `logo.png` into the repo and use `/YOUR_USERNAME/logo.png`).
+- **Important:** When copying from this chat, do **not** include the triple backticks that wrap this block here — paste the raw Markdown into `README.md`.
+
+Would you like me to:
+- add a neon SVG glow effect (animated) for the heading, or  
+- produce a small animated GIF terminal for the top (I can show how to embed it), or  
+- convert the plain ASCII footer into a clean SVG logo?
+
+Tell me which and I’ll add it directly into this README.
+
+
+
 <h3 align="center">A passionate developer from India</h3>
 
 **cmdref/cmdref** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -48,3 +130,7 @@ $ uname -a
 
 $ ls ~/repos
 > command-line-cheatsheet/  cli-shortcuts/  terminal-tricks/  docs-hub/
+
+
+
+
