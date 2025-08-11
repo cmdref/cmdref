@@ -7,15 +7,13 @@
 
 <!-- Neon Glowing Typing Animation -->
 <p align="center">
-  <img src="https://#" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=700&lines=The+Terminal+Awakens;A+New+CLI+Hope;Cyber+Futuristic+Knowledge+Base" alt="Typing SVG" />
 </p>
 
 ---
 
 <!-- Star Wars Opening Crawl GIF -->
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif" width="600" alt="Star Wars Crawl" />
-</p>
+
 
 ---
 
