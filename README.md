@@ -1,6 +1,28 @@
 # ⭐ cmdref — The Terminal Awakens
 plese ignore this is just a test
-# Hi there, I'm Bardia - aka Bardiesel <img width="30px" height="30" src="https://github.com/SatYu26/SatYu26/raw/master/Assets/Hi.gif" />
+<svg viewBox="0 0 240 80" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .small {
+      font: italic 13px sans-serif;
+    }
+    .heavy {
+      font: bold 30px sans-serif;
+    }
+
+    /* Note that the color of the text is set with the    *
+     * fill property, the color property is for HTML only */
+    .Rrrrr {
+      font: italic 40px serif;
+      fill: red;
+    }
+  </style>
+
+  <text x="20" y="35" class="small">My</text>
+  <text x="40" y="35" class="heavy">cat</text>
+  <text x="55" y="55" class="small">is</text>
+  <text x="65" y="55" class="Rrrrr">Grumpy!</text>
+</svg>
+
 
 <img align="right" alt="GIF" height="160px" src="https://octodex.github.com/images/daftpunktocat-guy.gif" />
 
@@ -10,10 +32,10 @@ plese ignore this is just a test
 - 📫 What is the best way to contact me? [Linkedin](https://www.linkedin.com/in/)
 - 😄 Pronouns: He/Him
 
-[![GitHub](https://img.shields.io/badge/Github-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bardiesel)
-[![Linkedin](https://img.shields.io/badge/Linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bardiesel/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/realbardiesel)
-[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/user/Bardiesel)
+[![GitHub](https://img.shields.io/badge/Github-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/#)
+[![Linkedin](https://img.shields.io/badge/Linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/#/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/#)
+[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/user/#)
 
 [![Apple](https://img.shields.io/badge/Apple-MacBook_Pro_2019-999999?style=for-the-badge&logo=apple&logoColor=white)]()
 
