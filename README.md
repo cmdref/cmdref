@@ -7,7 +7,7 @@
 
 <!-- Neon Glowing Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=30&pause=1000&color=00FF00&center=true&vCenter=true&width=700&lines=The+Terminal+Awakens;A+New+CLI+Hope;Cyber+Futuristic+Knowledge+Base" alt="Typing SVG" />
+  <img src="https://#" alt="Typing SVG" />
 </p>
 
 ---
