@@ -3,6 +3,10 @@
 > [!NOTE]
 > Top languages are only a metric of the languages my public code consists of and doesn't reflect my experience or skill level.
 
+<p align="center"> <img src="https://img.shields.io/badge/Bash-000000?style=for-the-badge&logo=gnu-bash&logoColor=00FF00" /> <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=00FF00" /> <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=00FF00" /> <img src="https://img.shields.io/badge/Neovim-000000?style=for-the-badge&logo=neovim&logoColor=00FF00" /> <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=00FF00" /> <img src="https://img.shields.io/badge/Star%20Wars%20Logic-000000?style=for-the-badge&logo=reverbnation&logoColor=00FF00" /> </p>
+
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=cmdref&show_icons=true&theme=chartreuse-dark&hide_border=true&icon_color=00FF00&title_color=00FF00&text_color=FFFFFF&bg_color=000000" alt="cmdref's GitHub stats" width="48%" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=cmdref&theme=highcontrast&hide_border=true&stroke=00FF00&ring=00FF00&fire=00FF00&currStreakLabel=00FF00" alt="cmdref's streak" width="48%" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=cmdref&color=00FF00&style=flat-square" alt="visitor badge" /> </p> <p align="center"> <b>⚡ The Force flows through the Terminal ⚡</b> </p> ```
 
 ⠉⠉⠉⠉⠁⠀⠀⠀⠀⠒⠂⠰⠤⢤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠻⢤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -57,6 +61,20 @@
 ---
 
 ## 📜 Jedi Console Log
+```ansi
+[0;32m
+          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣴⣶⣾⣿⣷⣶⣤⣄⡀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣾⣿⣿⣿⠿⠛⠛⠻⠿⣿⣿⣿⣦⣄⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⣿⣿⣦⡀⠀
+⠀⠀⠀⠀⠀⠀⢠⣿⣿⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢻⣿⣿⡄
+⠀⠀⠀⠀⠀⠀⣿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿
+⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿
+⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿
+⠀⠀⠀⠀⠀⠀⢿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⡿
+⠀⠀⠀⠀⠀⠀⠈⢿⣿⣦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣾⣿⡿⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⣿⣿⣶⣤⣤⣤⣤⣤⣤⣶⣾⣿⣿⠿⠛⠁⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠻⠿⢿⣿⡿⠿⠟⠛⠉⠀⠀⠀⠀⠀⠀
+[0m
 
 ```bash
 $ whoami
