@@ -18,6 +18,58 @@
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡄
 
 
+<!-- ===== STAR WARS HACKER README FOR cmdref ===== -->
+
+<h1 align="center">🌌🛡️ cmdref — The Force of the CLI Awakens 🛡️🌌</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=26&pause=1000&color=00FF00&center=true&vCenter=true&width=1000&lines=💻+Jedi+of+the+Command+Line;🛰️+Automation+Bounty+Hunter;⚡+Galactic+Scripting+Master;🛡️+Guardian+of+Code;👾+Hacker+of+the+Outer+Rim" alt="Typing animation" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif" alt="Matrix Rain" width="100%" />
+</p>
+
+---
+
+## 🚀 Galactic Navigation
+
+<p align="center">
+  <a href="https://github.com/cmdref/command-line-cheatsheet">
+    <img src="https://img.shields.io/badge/⚔️%20CLI%20Cheatsheet-000000?style=for-the-badge&logo=gnu-bash&logoColor=00FF00" />
+  </a>
+  <a href="https://github.com/cmdref/cli-shortcuts">
+    <img src="https://img.shields.io/badge/🛸%20CLI%20Shortcuts-000000?style=for-the-badge&logo=neovim&logoColor=00FF00" />
+  </a>
+  <a href="https://github.com/cmdref/terminal-tricks">
+    <img src="https://img.shields.io/badge/💫%20Terminal%20Tricks-000000?style=for-the-badge&logo=linux&logoColor=00FF00" />
+  </a>
+  <a href="https://github.com/cmdref/docs-hub">
+    <img src="https://img.shields.io/badge/📚%20Docs%20Hub-000000?style=for-the-badge&logo=markdown&logoColor=00FF00" />
+  </a>
+</p>
+
+---
+
+## 📜 Jedi Console Log
+
+```bash
+$ whoami
+> cmdref — Keeper of the Galactic CLI Scrolls
+
+$ sudo use_the_force --light
+> Initiating lightsaber... ⚔️ | Target: Bug Fixes
+
+$ ls -lah /galactic/repos
+> command-line-cheatsheet/
+> cli-shortcuts/
+> terminal-tricks/
+> docs-hub/
+
+$ ./jump_to_hyperspace.sh
+> ⚡ Entering lightspeed... Hold on to your scripts!
 
 
 **Note:** Before pasting: upload your custom images/GIFs into the repo (e.g. `assets/` folder).  
