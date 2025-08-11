@@ -61,7 +61,7 @@ $ ls ~/repos
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=00FF00&style=flat-square" alt="visitor-count" />
+  <img src="https://komarev.com/ghpvc/?username=cmdref&color=00FF00&style=flat-square" alt="visitor-count" />
 </p>
 
 ---
