@@ -113,9 +113,79 @@ plese ignore this is just a test
 
 <img align="right" alt="GIF" height="170px" src="https://media.giphy.com/media/J5B1Y8QZnzXXbLQIBu/giphy.gif" />
 
-### Spotify Playing 🎧
+<svg width="820" height="160" viewBox="0 0 820 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CMD REF keyboard logo">
+  <title>CMD REF — hacker theme</title>
+  <defs>
+    <!-- Neon green glow -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Convenient tokens -->
+    <style>
+      .key { rx:18; ry:18; stroke:#00FF66; stroke-width:3; }
+      .txt { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Liberation Mono", Consolas, "Courier New", monospace;
+             font-weight: 700; font-size: 44px; fill:#00FF66; letter-spacing: 2px; }
+      .legend { font-size: 12px; font-weight: 600; opacity:.7; }
+    </style>
+  </defs>
 
-[![Spotify](https://novatorem-kyzbk7wxl-bardiesel.vercel.app/api/spotify)](https://open.spotify.com/user/31doy22mvycwt43tx6ajtqe7tdtu)
+  <!-- Background (transparent so it blends on GitHub) -->
+  <rect width="100%" height="100%" fill="none"/>
+
+  <!-- Layout helpers -->
+  <!-- Each key: 110x110, gap: 18, left margin: 20 -->
+  <!-- Row: CMD (black) | spacer | REF (white) -->
+
+  <!-- C -->
+  <g transform="translate(20,25)" filter="url(#glow)">
+    <rect class="key" width="110" height="110" fill="#000000"/>
+    <text class="txt" x="55" y="70" text-anchor="middle">C</text>
+  </g>
+
+  <!-- M -->
+  <g transform="translate(148,25)" filter="url(#glow)">
+    <rect class="key" width="110" height="110" fill="#000000"/>
+    <text class="txt" x="55" y="70" text-anchor="middle">M</text>
+  </g>
+
+  <!-- D -->
+  <g transform="translate(276,25)" filter="url(#glow)">
+    <rect class="key" width="110" height="110" fill="#000000"/>
+    <text class="txt" x="55" y="70" text-anchor="middle">D</text>
+  </g>
+
+  <!-- spacer bolt -->
+  <g transform="translate(404,25)">
+    <rect width="14" height="110" rx="7" fill="#00FF66" opacity=".12"/>
+  </g>
+
+  <!-- R (white key) -->
+  <g transform="translate(438,25)" filter="url(#glow)">
+    <rect class="key" width="110" height="110" fill="#FFFFFF"/>
+    <text class="txt" x="55" y="70" text-anchor="middle">R</text>
+  </g>
+
+  <!-- E (white key) -->
+  <g transform="translate(566,25)" filter="url(#glow)">
+    <rect class="key" width="110" height="110" fill="#FFFFFF"/>
+    <text class="txt" x="55" y="70" text-anchor="middle">E</text>
+  </g>
+
+  <!-- F (white key) -->
+  <g transform="translate(694,25)" filter="url(#glow)">
+    <rect class="key" width="110" height="110" fill="#FFFFFF"/>
+    <text class="txt" x="55" y="70" text-anchor="middle">F</text>
+  </g>
+
+  <!-- Small bottom legend -->
+  <g opacity=".85">
+    <text x="20" y="150" class="legend" fill="#00FF66">CMDRef — The Terminal Awakens</text>
+  </g>
+</svg>
 
 ---
 
