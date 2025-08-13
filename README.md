@@ -367,7 +367,7 @@ No Activity Tracked This Week
 ## 📜 Jedi Console Log
 
 
-```bash
+
 $ whoami
 > cmdref — Keeper of the Galactic CLI Scrolls
 
