@@ -11,6 +11,13 @@ plese ignore this is just a test
 ![E](https://img.shields.io/badge/E-ff0033?style=for-the-badge)
 ![F](https://img.shields.io/badge/F-ff0033?style=for-the-badge)
 
+![C](https://img.shields.io/badge/C-00ff66?style=for-the-badge&labelColor=000000&color=000000)
+![M](https://img.shields.io/badge/M-00ff66?style=for-the-badge&labelColor=000000&color=000000)
+![D](https://img.shields.io/badge/D-00ff66?style=for-the-badge&labelColor=000000&color=000000)
+&nbsp;&nbsp;
+![R](https://img.shields.io/badge/R-00ff66?style=for-the-badge&labelColor=ffffff&color=ffffff)
+![E](https://img.shields.io/badge/E-00ff66?style=for-the-badge&labelColor=ffffff&color=ffffff)
+![F](https://img.shields.io/badge/F-00ff66?style=for-the-badge&labelColor=ffffff&color=ffffff)
 
 <pre style="background:#000; color:#00ff66; padding:5px; line-height:0.5;">
  .----------------.  .----------------.  .----------------.   .----------------.  .----------------.  .----------------. 
