@@ -1,5 +1,8 @@
 # ⭐ cmdref — The Terminal Awakens
 plese ignore this is just a test
+<font color="orange">Orange text here</font>
+<font color="#ff00ff">Magenta text</font>
+
 <pre style="background:#000; color:#00ff66; padding:5px; line-height:0.5;">
  .----------------.  .----------------.  .----------------.   .----------------.  .----------------.  .----------------. 
 | .--------------. || .--------------. || .--------------. | | .--------------. || .--------------. || .--------------. |
