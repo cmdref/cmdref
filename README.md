@@ -42,6 +42,11 @@ plese ignore this is just a test
 │   C   │ │   M   │ │   D   │   │   R   │ │   E   │ │   F   │
 └───────┘ └───────┘ └───────┘   └───────┘ └───────┘ └───────┘
 </pre>
+<pre>
+<span style="color: #00ff66;">┌───────┐ ┌───────┐ ┌───────┐</span>
+<span style="color: yellow;">│   C   │ │   M   │ │   D   │</span>
+<span style="color: #00ff66;">└───────┘ └───────┘ └───────┘</span>
+</pre>
 
 <svg viewBox="0 0 240 80" xmlns="http://www.w3.org/2000/svg">
   <style>
