@@ -28,6 +28,10 @@ plese ignore this is just a test
 
 ## I'm a  Developer
 
+<!-- in README.md -->
+<pre style="background:#000; color:#00ff66; padding:16px; line-height:1;">
+YOUR ASCII HERE
+
 
 
  .----------------.  .----------------.  .----------------.   .----------------.  .----------------.  .----------------. 
@@ -42,7 +46,7 @@ plese ignore this is just a test
 | '--------------' || '--------------' || '--------------' | | '--------------' || '--------------' || '--------------' |
  '----------------'  '----------------'  '----------------'   '----------------'  '----------------'  '----------------' 
 
-
+</pre>
 
 - 🌱 I am currently learning more about  development.
 - 📫 What is the best way to contact me? [Linkedin](https://www.linkedin.com/in/)
