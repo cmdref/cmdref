@@ -3,6 +3,15 @@ plese ignore this is just a test
 <font color="orange">Orange text here</font>
 <font color="#ff00ff">Magenta text</font>
 
+![C](https://img.shields.io/badge/C-00ff66?style=for-the-badge)
+![M](https://img.shields.io/badge/M-00ff66?style=for-the-badge)
+![D](https://img.shields.io/badge/D-00ff66?style=for-the-badge)
+&nbsp;&nbsp;
+![R](https://img.shields.io/badge/R-ff0033?style=for-the-badge)
+![E](https://img.shields.io/badge/E-ff0033?style=for-the-badge)
+![F](https://img.shields.io/badge/F-ff0033?style=for-the-badge)
+
+
 <pre style="background:#000; color:#00ff66; padding:5px; line-height:0.5;">
  .----------------.  .----------------.  .----------------.   .----------------.  .----------------.  .----------------. 
 | .--------------. || .--------------. || .--------------. | | .--------------. || .--------------. || .--------------. |
