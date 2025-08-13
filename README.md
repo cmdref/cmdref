@@ -1,3 +1,664 @@
+# 🚀 Ultimate CLI Command Cheatsheet
+┌─[✓]─[user@terminal]─[~/cmd-ref]
+└──╼ $ figlet "CMD REF"
+
+  ██████╗███╗   ███╗██████╗     ██████╗ ███████╗███████╗
+ ██╔════╝████╗ ████║██╔══██╗    ██╔══██╗██╔════╝██╔════╝
+ ██║     ██╔████╔██║██║  ██║    ██████╔╝█████╗  █████╗  
+ ██║     ██║╚██╔╝██║██║  ██║    ██╔══██╗██╔══╝  ██╔══╝  
+ ╚██████╗██║ ╚═╝ ██║██████╔╝    ██║  ██║███████╗██║     
+  ╚═════╝╚═╝     ╚═╝╚═════╝     ╚═╝  ╚═╝╚══════╝╚═╝     
+
+ > Your Ultimate Command Line Reference Guide 🚀
+ > Master the terminal with this comprehensive cheatsheet
+>
+>
+>
+```bash
+┌─[✓]─[user@terminal]─[~/cheatsheet]
+└──╼ $ echo "Welcome to CLI Mastery!"
+
+    ██████╗██╗     ██╗     ███╗   ███╗ █████╗ ███████╗████████╗███████╗██████╗ ██╗   ██╗
+   ██╔════╝██║     ██║     ████╗ ████║██╔══██╗██╔════╝╚══██╔══╝██╔════╝██╔══██╗╚██╗ ██╔╝
+   ██║     ██║     ██║     ██╔████╔██║███████║███████╗   ██║   █████╗  ██████╔╝ ╚████╔╝ 
+   ██║     ██║     ██║     ██║╚██╔╝██║██╔══██║╚════██║   ██║   ██╔══╝  ██╔══██╗  ╚██╔╝  
+   ╚██████╗███████╗██║     ██║ ╚═╝ ██║██║  ██║███████║   ██║   ███████╗██║  ██║   ██║   
+    ╚═════╝╚══════╝╚═╝     ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝   ╚═╝   
+
+    > Your comprehensive guide to command line domination 🔥
+    > From basic navigation to advanced system administration
+```
+
+---
+
+## 📚 Table of Contents
+
+- [🚀 Terminal Basics](#-terminal-basics)
+- [📁 Files & Directories](#-files--directories)
+- [📝 Text Processing](#-text-processing)
+- [⚙️ System Information](#️-system-information)
+- [🌐 Network Commands](#-network-commands)
+- [🔀 Git Commands](#-git-commands)
+- [🐳 Docker Commands](#-docker-commands)
+- [⌨️ Keyboard Shortcuts](#️-keyboard-shortcuts)
+- [🎯 Advanced Tips](#-advanced-tips)
+
+---
+
+## 🚀 Terminal Basics
+
+```bash
+# Navigation Essentials
+pwd                    # Print working directory
+cd /path/to/directory  # Change directory
+cd ..                  # Go up one level
+cd ~                   # Go to home directory
+cd -                   # Go to previous directory
+
+# Listing Files
+ls -la                 # List all files (detailed + hidden)
+ls -lh                 # Human readable file sizes
+ls -lt                 # Sort by modification time
+tree                   # Display directory structure
+```
+
+<details>
+<summary><b>🎯 Pro Navigation Tips</b></summary>
+
+```bash
+# Quick Directory Navigation
+pushd /path            # Save current dir and change
+popd                   # Return to saved directory
+dirs -v                # Show directory stack
+
+# Fuzzy Finding (if fzf installed)
+cd $(find . -type d | fzf)  # Interactive directory selection
+```
+</details>
+
+---
+
+## 📁 Files & Directories
+
+### File Operations
+```bash
+# Creating & Copying
+touch filename.ext     # Create empty file
+cp source dest         # Copy file
+cp -r dir1 dir2        # Copy directory recursively
+mv old_name new_name   # Move/rename file
+
+# Deleting (⚠️ BE CAREFUL!)
+rm filename            # Delete file
+rm -rf directory/      # Delete directory and contents
+```
+
+### Finding Files
+```bash
+# Find by name
+find . -name "*.txt"           # Find all .txt files
+find . -iname "*.PDF"          # Case insensitive search
+find . -type f -name "*config*" # Find files with 'config' in name
+
+# Find by size
+find . -size +100M             # Files larger than 100MB
+find . -size -1k               # Files smaller than 1KB
+
+# Find by date
+find . -mtime -7               # Modified in last 7 days
+find . -atime +30              # Accessed more than 30 days ago
+```
+
+<details>
+<summary><b>🔍 Advanced Find Examples</b></summary>
+
+```bash
+# Execute commands on found files
+find . -name "*.log" -exec rm {} \;     # Delete all .log files
+find . -name "*.py" -exec wc -l {} \;   # Count lines in Python files
+
+# Modern alternatives
+fd filename                             # Faster alternative to find
+locate filename                         # Quick search using database
+```
+</details>
+
+---
+
+## 📝 Text Processing
+
+### Viewing Files
+```bash
+cat filename           # Display entire file
+less filename          # Paginated view (better for large files)
+head -20 filename      # First 20 lines
+tail -20 filename      # Last 20 lines
+tail -f filename       # Follow file changes (perfect for logs!)
+```
+
+### Searching in Files
+```bash
+# Grep - The Search Master
+grep "pattern" file              # Basic search
+grep -r "pattern" directory/     # Recursive search
+grep -i "pattern" file           # Case insensitive
+grep -n "pattern" file           # Show line numbers
+grep -v "pattern" file           # Invert match (exclude pattern)
+grep -E "pattern1|pattern2" file # Multiple patterns (extended regex)
+```
+
+### Text Manipulation
+```bash
+# Sorting & Filtering
+sort filename          # Sort lines alphabetically
+sort -n filename       # Sort numerically
+sort -r filename       # Reverse sort
+uniq filename          # Remove duplicates (requires sorted input)
+sort file | uniq -c    # Count occurrences
+
+# Counting & Statistics
+wc filename            # Word, line, character count
+wc -l filename         # Count lines only
+wc -w filename         # Count words only
+```
+
+<details>
+<summary><b>⚡ Power User Text Commands</b></summary>
+
+```bash
+# Stream Editor (sed)
+sed 's/old/new/g' file         # Replace all occurrences
+sed 's/old/new/gi' file        # Replace (case insensitive)
+sed -n '1,10p' file            # Print lines 1-10
+sed '/pattern/d' file          # Delete lines matching pattern
+
+# AWK - Programming Language for Text
+awk '{print $1}' file          # Print first column
+awk -F',' '{print $2}' file    # Use comma as delimiter
+awk 'NR>1 {print}' file        # Skip header line
+
+# Modern Alternatives
+rg "pattern"                   # ripgrep - faster grep
+bat filename                   # Better cat with syntax highlighting
+```
+</details>
+
+---
+
+## ⚙️ System Information
+
+### Process Management
+```bash
+# Viewing Processes
+ps aux                 # List all processes
+ps aux | grep process  # Find specific process
+top                    # Real-time process viewer
+htop                   # Better interactive process viewer
+pgrep process_name     # Find process ID by name
+
+# Killing Processes
+kill PID               # Terminate process by ID
+kill -9 PID            # Force kill process
+killall process_name   # Kill all processes by name
+pkill -f pattern       # Kill processes matching pattern
+```
+
+### System Resources
+```bash
+# Memory & Storage
+free -h                # Memory usage (human readable)
+df -h                  # Disk space usage
+du -sh directory/      # Directory size
+du -h --max-depth=1    # Size of subdirectories
+
+# System Information
+uname -a               # System information
+uptime                 # System uptime and load
+lscpu                  # CPU information
+lsblk                  # List block devices
+```
+
+### File Permissions
+```bash
+# Viewing Permissions
+ls -l filename         # Show file permissions
+
+# Changing Permissions (Octal notation)
+chmod 755 file         # rwxr-xr-x
+chmod 644 file         # rw-r--r--
+chmod +x script.sh     # Make executable
+
+# Ownership
+chown user:group file  # Change ownership
+sudo chown -R user:group directory/  # Recursive ownership change
+```
+
+<details>
+<summary><b>🔧 System Monitoring Commands</b></summary>
+
+```bash
+# Advanced System Monitoring
+iostat -x 1            # I/O statistics every second
+vmstat 1               # Virtual memory statistics
+netstat -tuln          # Network connections
+ss -tuln               # Modern alternative to netstat
+lsof -i :80            # Show what's using port 80
+
+# Service Management (systemd)
+systemctl status service_name     # Check service status
+systemctl start service_name      # Start service
+systemctl enable service_name     # Enable service at boot
+```
+</details>
+
+---
+
+## 🌐 Network Commands
+
+### Connectivity Testing
+```bash
+# Basic Network Diagnostics
+ping google.com        # Test connectivity
+ping -c 4 google.com   # Send only 4 packets
+traceroute google.com  # Trace route to destination
+mtr google.com         # Continuous traceroute
+
+# DNS Lookup
+nslookup domain.com    # Basic DNS lookup
+dig domain.com         # Detailed DNS information
+dig @8.8.8.8 domain.com # Use specific DNS server
+```
+
+### Network Information
+```bash
+# Interface Information
+ifconfig               # Network interface configuration
+ip addr show           # Show IP addresses (modern)
+ip route show          # Show routing table
+
+# Network Connections
+netstat -tuln          # Show listening ports
+ss -tuln               # Modern alternative (faster)
+lsof -i                # Show network connections by process
+```
+
+### File Transfer
+```bash
+# Download Files
+curl -O url            # Download file
+curl -L url            # Follow redirects
+wget url               # Alternative downloader
+wget -c url            # Resume download
+
+# Secure Transfer
+scp file user@host:/path      # Copy file over SSH
+rsync -av source/ dest/       # Sync directories
+rsync -av --progress src/ dst/ # Show progress
+```
+
+<details>
+<summary><b>🌐 Advanced Network Tools</b></summary>
+
+```bash
+# Network Analysis
+tcpdump -i eth0                    # Capture packets
+nmap -sP 192.168.1.0/24           # Scan network for hosts
+nc -zv hostname 80                # Check if port is open
+
+# HTTP Testing
+curl -X POST -d "data" url        # POST request
+curl -H "Header: value" url       # Custom header
+curl -w "%{http_code}" url        # Show HTTP status code
+```
+</details>
+
+---
+
+## 🔀 Git Commands
+
+### Repository Setup
+```bash
+# Initialize & Clone
+git init               # Initialize new repository
+git clone url          # Clone remote repository
+git remote add origin url        # Add remote
+git remote -v          # Show remotes
+```
+
+### Basic Workflow
+```bash
+# Status & Changes
+git status             # Show working tree status
+git diff               # Show unstaged changes
+git diff --staged      # Show staged changes
+
+# Staging & Committing
+git add .              # Stage all changes
+git add filename       # Stage specific file
+git commit -m "message"          # Commit with message
+git commit -am "message"         # Stage and commit
+```
+
+### Branching & Merging
+```bash
+# Branch Management
+git branch             # List branches
+git branch new-branch  # Create new branch
+git checkout branch-name         # Switch branch
+git checkout -b new-branch       # Create and switch
+git merge branch-name  # Merge branch
+git branch -d branch-name        # Delete branch
+```
+
+### Remote Operations
+```bash
+# Sync with Remote
+git push origin main   # Push to remote
+git pull origin main   # Pull from remote
+git fetch origin       # Fetch without merge
+git push -u origin branch        # Push and set upstream
+```
+
+<details>
+<summary><b>🔥 Advanced Git Operations</b></summary>
+
+```bash
+# History & Information
+git log --oneline      # Compact commit history
+git log --graph        # Show branch graph
+git show commit-hash   # Show commit details
+git blame filename     # Show who changed each line
+
+# Undoing Changes
+git reset --soft HEAD~1    # Undo last commit (keep changes)
+git reset --hard HEAD~1    # Undo last commit (discard changes)
+git revert commit-hash     # Create new commit that undoes changes
+
+# Stashing
+git stash              # Temporarily save changes
+git stash pop          # Apply and remove stash
+git stash list         # List all stashes
+```
+</details>
+
+---
+
+## 🐳 Docker Commands
+
+### Container Management
+```bash
+# Running Containers
+docker run image       # Run container
+docker run -it image bash        # Interactive container
+docker run -d -p 8080:80 image   # Detached with port mapping
+
+# Container Operations
+docker ps              # List running containers
+docker ps -a           # List all containers
+docker stop container_id         # Stop container
+docker rm container_id           # Remove container
+docker exec -it container_id bash # Execute command in container
+```
+
+### Image Management
+```bash
+# Image Operations
+docker images          # List images
+docker pull image:tag  # Download image
+docker build -t name . # Build image from Dockerfile
+docker rmi image_id    # Remove image
+docker system prune    # Clean up unused resources
+```
+
+### Docker Compose
+```bash
+# Compose Operations
+docker-compose up      # Start services
+docker-compose up -d   # Start in background
+docker-compose down    # Stop and remove containers
+docker-compose logs    # View logs
+docker-compose ps      # List services
+```
+
+<details>
+<summary><b>🐋 Advanced Docker Commands</b></summary>
+
+```bash
+# Debugging & Inspection
+docker logs container_id           # View container logs
+docker inspect container_id       # Detailed container info
+docker stats                       # Real-time resource usage
+docker top container_id            # Running processes in container
+
+# Volume Management
+docker volume ls                   # List volumes
+docker volume create volume_name   # Create volume
+docker run -v volume_name:/path image # Mount volume
+
+# Network Management
+docker network ls                  # List networks
+docker network create network_name # Create network
+```
+</details>
+
+---
+
+## ⌨️ Keyboard Shortcuts
+
+### Essential Terminal Shortcuts
+```bash
+# Process Control
+Ctrl + C               # Kill current process
+Ctrl + Z               # Suspend process (use 'fg' to resume)
+Ctrl + D               # Exit shell or end input
+
+# Navigation & Editing
+Ctrl + A               # Move to beginning of line
+Ctrl + E               # Move to end of line
+Ctrl + U               # Clear line before cursor
+Ctrl + K               # Clear line after cursor
+Ctrl + L               # Clear screen
+Ctrl + R               # Search command history
+```
+
+### History & Completion
+```bash
+# Command History
+!!                     # Repeat last command
+!n                     # Repeat command number n
+!string                # Repeat last command starting with string
+history                # Show command history
+
+# Tab Completion
+Tab                    # Complete command/filename
+Tab Tab                # Show all possible completions
+```
+
+<details>
+<summary><b>⚡ Pro Terminal Shortcuts</b></summary>
+
+```bash
+# Advanced Navigation
+Alt + B                # Move back one word
+Alt + F                # Move forward one word
+Ctrl + W               # Delete word before cursor
+Alt + D                # Delete word after cursor
+
+# Process Management
+Ctrl + S               # Pause output
+Ctrl + Q               # Resume output
+jobs                   # List active jobs
+fg %1                  # Bring job 1 to foreground
+bg %1                  # Send job 1 to background
+```
+</details>
+
+---
+
+## 🎯 Advanced Tips
+
+### Command Chaining
+```bash
+# Logical Operators
+command1 && command2   # Run command2 if command1 succeeds
+command1 || command2   # Run command2 if command1 fails
+command1 ; command2    # Run command2 regardless
+
+# Pipes & Redirection
+command | grep pattern # Pipe output to grep
+command > file         # Redirect output to file
+command >> file        # Append output to file
+command 2>&1           # Redirect stderr to stdout
+```
+
+### Aliases & Functions
+```bash
+# Creating Aliases (add to ~/.bashrc or ~/.zshrc)
+alias ll='ls -la'
+alias la='ls -A'
+alias ..='cd ..'
+alias grep='grep --color=auto'
+
+# Useful Custom Aliases
+alias h='history'
+alias c='clear'
+alias df='df -h'
+alias free='free -h'
+alias ps='ps aux'
+```
+
+### Environment Variables
+```bash
+# Viewing Variables
+env                    # Show all environment variables
+echo $PATH             # Show PATH variable
+echo $HOME             # Show home directory
+
+# Setting Variables
+export VAR_NAME=value  # Set environment variable
+export PATH=$PATH:/new/path    # Add to PATH
+```
+
+<details>
+<summary><b>🚀 Power User Combinations</b></summary>
+
+```bash
+# One-Liners for Common Tasks
+find . -name "*.log" -mtime +7 -delete    # Delete old log files
+ps aux | grep -v grep | grep process      # Find process without grep in results
+du -sh */ | sort -h                       # Directory sizes sorted
+netstat -tuln | grep :80                  # Check if port 80 is listening
+
+# Monitoring Shortcuts
+watch -n 1 'ps aux | grep process'       # Monitor process every second
+tail -f /var/log/syslog | grep ERROR     # Monitor errors in real-time
+```
+</details>
+
+---
+
+## 🔥 Quick Reference Cards
+
+### File Permissions Octal Chart
+```
+7 = rwx (read, write, execute)
+6 = rw- (read, write)
+5 = r-x (read, execute)
+4 = r-- (read only)
+3 = -wx (write, execute)
+2 = -w- (write only)
+1 = --x (execute only)
+0 = --- (no permissions)
+```
+
+### Common Port Numbers
+```
+22  - SSH
+80  - HTTP
+443 - HTTPS
+3306 - MySQL
+5432 - PostgreSQL
+6379 - Redis
+27017 - MongoDB
+```
+
+### Exit Codes
+```
+0   - Success
+1   - General error
+2   - Misuse of shell command
+126 - Command not executable
+127 - Command not found
+130 - Script terminated by Ctrl+C
+```
+
+---
+
+## 📚 Resources & Further Learning
+
+```bash
+# Built-in Help
+man command            # Manual page for command
+command --help         # Help for command
+info command           # Info documentation
+which command          # Location of command
+type command           # Command type information
+```
+
+### Recommended Tools
+- **fzf** - Fuzzy finder for files and commands
+- **ripgrep (rg)** - Faster grep alternative
+- **bat** - Better cat with syntax highlighting
+- **htop** - Interactive process viewer
+- **fd** - Simple, fast alternative to find
+- **exa** - Modern ls replacement
+
+---
+
+## 🤝 Contributing
+
+Found a useful command that's missing? Have a better way to do something? 
+
+1. Fork this repository
+2. Add your commands following the existing format
+3. Submit a pull request
+
+Let's make this the ultimate CLI reference together! 🚀
+
+---
+
+## ⭐ Star This Repository
+
+If this cheatsheet helped you become a command line ninja, please give it a star! ⭐
+
+```bash
+┌─[✓]─[user@terminal]─[~/cheatsheet]
+└──╼ $ echo "Happy hacking! 🔥"
+
+    > Remember: With great power comes great responsibility
+    > Always double-check destructive commands (especially rm -rf)
+    > When in doubt, use man pages or --help
+    > Practice makes perfect - keep exploring!
+```
+
+---
+
+<div align="center">
+
+**Made with ❤️ and ☕ by developers, for developers**
+
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/cli-cheatsheet?style=social)](https://github.com/yourusername/cli-cheatsheet)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+</div>
+
+
+
+
+
+
+
+
 # ⭐ cmdref — The Terminal Awakens
 plese ignore this is just a test
 <font color="orange">Orange text here</font>
